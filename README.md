@@ -12,6 +12,9 @@ This project is a **computer vision and machine learning pipeline** designed to 
 
 This project is ideal for **sports analysts, coaches, and AI enthusiasts** looking to integrate **AI-driven insights into football analysis.**
 
+![image](https://github.com/user-attachments/assets/6286b234-e91f-464a-8af6-456ffe22c520)
+
+
 ---
 
 ## 📂 Project Structure
