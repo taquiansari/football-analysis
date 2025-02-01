@@ -1,0 +1,34 @@
+1) create project folder
+2) create environement
+3) make subfolder = input_videos
+4) put the example video in it 
+5) create new file yolo_inference.py for experimenting with yolo
+6) run yolo_inference.py, this will download the yolo model, but only the first time
+7) create a new folder 'training' to fine tune the yolo model with a good labelled images of referee, ball and players
+8) create a notebook and write code
+9) put the notebook in colab to use their gpu to train
+10) download the best and last weights and put it in newly created models folder
+11) use models/best.pt in yolo_inference.py instead of yolovx
+12) run yolo_inference.py, another folder will be created in runs/ you will notice that now output is showing referee too
+13) to make annotations beautiful(ellipses etc), Create main.py
+14) Create utils/video_utils.py, write code, create init.py in utils
+15) create output_videos folder, run main.py, it saves the video as it is
+16) to make tracking happen, create trackers folder, add init which exposes the classes and functions to outside the tracker folder and tracker.py in it
+17) write code in tracker.py and then in init
+18) write code for tracker in main.py
+19) and then again in tracker.py write code to convert goalkeeper to player object and more code for other things
+20) and then again run main.py finally, now it will now store the stub for the input video
+21) Write some more code in tracker.py
+22) create bbox utils file in utils for ellipse construction and write some more in tracker.py
+23) run the main.py, this will create a video in output_videos with ellipse below player 
+24) write some more in tracker.py for little rectangle on ellipse which marks player's numberxx
+25) write some more to draw triangle on ball in tracker.py
+26) create development_and_analysis/color_assignment.ipynb to distinguish teams
+27) go back to main.py and write a code to save cropped image of player in the first frame of the video
+28) start writing code in color_assignment.ipynb
+29) create folder team_assigner, create init.py in it, create team_assigner.py , write code in both
+30) write code in main.py
+31) create player_ball_assigner for ball acquisition, then write code in main.py and tracker.py
+32) create camera_movement_estimator, write code/ write code in tracker.py and main.py too
+33) create view_transformers, write code
+34) create speed_and_distance_estimator, write code
